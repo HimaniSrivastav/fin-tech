@@ -348,16 +348,16 @@
     border-radius: var(--br-3xs);
   }
   .group-icon {
-    align-self: stretch;
+    align-self: center;
     flex: 1;
     position: relative;
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
     object-fit: cover;
-    transform: rotate(-180deg);
     z-index: 1;
-  }
+    top: 18px;
+     }
   .courses {
     width: 149.6px;
     position: relative;
@@ -468,14 +468,13 @@
     padding: 0 var(--padding-7xl-1) 0 var(--padding-7xl);
   }
   .course-assign-icon {
-    width: 90px;
-    height: 90px;
+    width: 110px;
+    height: 110px;
     position: absolute;
-    margin: 0 !important;
+    /* margin: 0 !important; */
     top: 18px;
-    right: 82px;
+   left: 90px;
     object-fit: contain;
-    transform: rotate(-180deg);
     z-index: 1;
   }
   .rectangle-group {
@@ -551,7 +550,6 @@
     top: 18px;
     left: 89px;
     object-fit: contain;
-    transform: rotate(-180deg);
     z-index: 1;
   }
   .rectangle-container {
@@ -627,8 +625,7 @@
     top: 18px;
     right: 84px;
     object-fit: contain;
-    transform: rotate(-180deg);
-    z-index: 1;
+       z-index: 1;
   }
   .rectangle-parent1 {
     display: flex;
